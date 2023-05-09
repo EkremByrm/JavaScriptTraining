@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#">
+    <style>
+        li {
+            list-style-type: none;
+            max-width: 200px;
+            margin: 8px auto;
+            padding: 8px;
+            background-color: #eee;
+        }
+
+        form {
+            margin: auto;
+            background: white;
+            padding: 20px;
+            max-width: 250px;
+        }
+
+        input {
+            display: block;
+            padding: 5px;
+            margin: 10px auto;
+        }
+
+        .success {
+            border: 2px solid green;
+            background-color: aqua;
+        }
+
+        .error {
+            border: 2px solid tomato;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+
+        <h1>DOM</h1>
+    </div>
+
+    <form class="singupform">
+        <input type="text" id="username" name="username" placeholder="Username input..">
+        <div class="message"></div>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="can.js"></script>
+</body>
+
+</html>
