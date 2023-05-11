@@ -1,0 +1,29 @@
+body {
+    background-color: darksalmon;
+}
+
+::placeholder {
+    color: azure !important;
+}
+
+.container {
+    max-width: 450px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: blanchedalmond;
+    border: none;
+    background-color: burlywood;
+
+}
+
+.todos li {
+
+    background-color: darkgray;
+    color: aliceblue;
+}
+
+.delete {
+    cursor: pointer;
+}
